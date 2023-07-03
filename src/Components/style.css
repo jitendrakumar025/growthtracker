@@ -5,6 +5,7 @@ body{
     background-color: #121212;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth !important;
 }
 .container{
     top: 0 !important;
@@ -25,12 +26,8 @@ body{
 }
 .MainContainer{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     padding: 1em 1em;
-    /* width: 100%; */
-    /* height: 100vh; */
-
 }
 .h2{
     text-align: center;
@@ -113,9 +110,7 @@ body{
     font-weight: 600;
 }
 .toggle button{
-    /* border: none; */
     background-color: #39373700;
-    /* outline: none; */
     color: #0abb92;
     border-radius: 1em;
     margin-left: 1em;
@@ -142,6 +137,6 @@ body{
 .res span{
     font-weight: 900;
     font-size: 16px;
-    /* letter-spacing: 0.01em; */
+    margin: 0;
     transition: all 1s ease-in-out;
 }
