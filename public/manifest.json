@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "CapitalCrafter-A SIP Calculator",
+  "description": "An Extension which includes SIP and Lumpsum Calculator",
+  "short_name": "CapitalCrafter",
+  "version": "1.0",
+  "permissions":[ "tabs",
+  "bookmarks"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "CapitalCrafter"
+  },
+  
+  "icons": {
+        "16": "favicon.ico",
+        "48": "logo192.png",
+       "128": "logo512.png"
+      }
+}

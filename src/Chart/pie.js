@@ -17,7 +17,7 @@ const PieChart = (props) =>{
     return(
     <ResponsivePie
         data={data}
-        margin={{ top: 0, right: 60, bottom:100 , left: 90 }}
+        margin={{ top: 0, right: 60, bottom:60 , left: 90 }}
         innerRadius={0.75}
         padAngle={0.7}
         activeOuterRadiusOffset={8}
@@ -93,7 +93,7 @@ const PieChart = (props) =>{
                 direction: 'row',
                 justify: false,
                 translateX: 30,
-                translateY: -300,
+                translateY: -290,
                 itemsSpacing: 0,
                 itemWidth: 150,
                 itemHeight: 18,

@@ -1,0 +1,9 @@
+html,body {
+   width: 750px;
+   height: 600px;
+    /* height: 1000px; */
+    overflow-x: hidden;
+  }
+
+
+

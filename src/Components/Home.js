@@ -121,8 +121,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="MainContainer">
-        <div className="Details">
+      {/* <div className="MainContainer"> */}
+        {/* <div className="Details">
           {activeSIP ? (
             <>
               <h2>How can a SIP return calculator help you?</h2>
@@ -172,7 +172,7 @@ const Home = () => {
               </p>
             </>
           )}
-        </div>
+        </div> */}
 
         <div className="container">
           <h2 className="h2">
@@ -364,7 +364,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 };
